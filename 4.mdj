@@ -979,17 +979,18 @@
 									"model": {
 										"$ref": "AAAAAAGGjPidT2x+EXY="
 									},
-									"visible": false,
 									"font": "Arial;13;0",
-									"left": 726,
+									"left": 691,
 									"top": 269,
+									"width": 71.931640625,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
 									"hostEdge": {
 										"$ref": "AAAAAAGGjPidT2yACjU="
 									},
-									"edgePosition": 1
+									"edgePosition": 1,
+									"text": "+Наследует"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -1870,17 +1871,18 @@
 									"model": {
 										"$ref": "AAAAAAGGjUtNZgI1sEs="
 									},
-									"visible": null,
 									"font": "Arial;13;0",
-									"left": 966,
+									"left": 921,
 									"top": 284,
+									"width": 91.76806640625,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
 									"hostEdge": {
 										"$ref": "AAAAAAGGjUtNZwI5oRI="
 									},
-									"edgePosition": 1
+									"edgePosition": 1,
+									"text": "«communicate»"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -1893,8 +1895,9 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 988,
+									"left": 962,
 									"top": 324,
+									"width": 53.69482421875,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -4162,6 +4165,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGGdYa1gxNvPtM="
 							},
+							"name": "Наследует",
 							"source": {
 								"$ref": "AAAAAAGGdYa1gxNvPtM="
 							},
@@ -4227,7 +4231,8 @@
 								},
 								"navigable": "navigable",
 								"multiplicity": "1"
-							}
+							},
+							"stereotype": "communicate"
 						},
 						{
 							"_type": "UMLAssociation",
